@@ -1,8 +1,12 @@
 :root {
     --slate-900: #1F314F;       /* primary color */
     --slate-500: #68778D;       /* secondary color */
-    --slate-300: #333;          /* accent color */
-  }
+    --slate-300: #D5E1EF;          /* accent color */
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .outfit-bold {
     font-family: "Outfit", serif;
@@ -23,21 +27,39 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    padding: 0 27.5px;
+    background-color: var(--slate-300);
 }
 
 #card {
+    background-color: #FFF;
+    border-radius: 10px;
+    margin-top: 156.5px;
+    padding: 16px 16px 0px 16px;
     height: 499px;
     width: 320px;
 }
 
 img {
+    border-radius: 10px;
+    margin-bottom: 24px;
     width: 100%;
 }
 
+#card-details {
+    padding: 0 16px;
+}
+
 h1 {
+    color: var(--slate-900);
     font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 16px;
 }
 
 p {
+    color: var(--slate-500);
     font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 0;
 }
