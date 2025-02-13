@@ -53,6 +53,7 @@ img {
 h1 {
     color: var(--slate-900);
     font-size: 22px;
+    line-height: 120%;
     margin-top: 0;
     margin-bottom: 16px;
 }
@@ -60,6 +61,18 @@ h1 {
 p {
     color: var(--slate-500);
     font-size: 15px;
+    line-height: 140%;
     margin-top: 0;
     margin-bottom: 0;
+}
+
+@media screen {
+    @media screen and (min-width: 1024px) {
+        
+        #card {
+          margin-top: 230.5px;
+        }
+
+
+      }
 }
